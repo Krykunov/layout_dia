@@ -1,0 +1,47 @@
+.top-bar {
+  &__content {
+    padding-block: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @include on-tablet {
+      padding-block: 48px;
+    }
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  &__cta {
+    position: relative;
+    transform: translateY(-8px);
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing;
+    font-weight: 700;
+    text-align: center;
+
+    @include on-desktop {
+      transform: translateY(0);
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: calc(100% - $letter-spacing);
+      height: 2px;
+      border-radius: 4px;
+      background-color: $accent-color;
+      right: 0;
+      left: 0;
+      bottom: -10px;
+    }
+  }
+}
