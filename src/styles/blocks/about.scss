@@ -2,12 +2,7 @@
   &__content {
     @include page-grid;
 
-    padding-block: 120px;
-
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
+    padding-block: 7.5rem;
   }
 
   &__title {
@@ -16,7 +11,6 @@
 
   &__descr {
     grid-column: 1/-1;
-
     font-size: 22px;
     line-height: 33px;
     font-weight: 600;
@@ -24,7 +18,7 @@
     color: $text-regular-color;
 
     @include on-tablet {
-      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 36px;
     }
 

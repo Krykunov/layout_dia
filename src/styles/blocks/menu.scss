@@ -2,21 +2,21 @@
   &__list {
     display: flex;
     flex-direction: row;
-    gap: 48px;
+    gap: 3rem;
   }
 
   &__list--footer {
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
 
     @include on-tablet {
       flex-direction: row;
-      gap: 40px;
+      gap: 2.5rem;
     }
 
     @include on-desktop {
       flex-direction: row;
-      gap: 64px;
+      gap: 4rem;
     }
   }
 

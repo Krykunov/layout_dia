@@ -2,7 +2,7 @@
   background-color: #fff;
   border-radius: $border-radius-medium;
   padding: 2rem;
-  width: 280px;
+  width: 17.5rem;
   box-shadow: $box-shadow;
   transition: box-shadow $effect-duration;
 
@@ -11,7 +11,7 @@
   }
 
   @include on-tablet {
-    width: 264px;
+    width: 16.6rem;
     &:nth-child(2n) {
       transform: translateY(-50%);
     }
@@ -22,7 +22,7 @@
   }
 
   @include on-mid-desktop {
-    max-width: 264px;
+    max-width: 16.5rem;
   }
 
   box-sizing: border-box;
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     width: 46px;
-    height: 24px;
+    height: 1.5rem;
     font-size: 13px;
     font-family: $headers-font;
     line-height: 20px;

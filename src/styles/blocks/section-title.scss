@@ -1,6 +1,6 @@
 .section-title {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   font-size: 44px;
   line-height: 53px;
   font-weight: 600;
@@ -9,8 +9,8 @@
   font-family: $headers-font;
 
   &--small {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 2rem;
+    line-height: 3rem;
   }
 
   &--align--left {
@@ -27,5 +27,5 @@
   letter-spacing: $letter-spacing;
   color: $text-subheaders-color;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }

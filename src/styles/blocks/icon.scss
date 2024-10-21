@@ -1,7 +1,7 @@
 .icon {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-size: cover;
   background-position: center;
   transition: transform $effect-duration;
@@ -9,9 +9,6 @@
   &--menu {
     background-image: url('../images/icons/icon-menu.svg');
 
-    // &:hover {
-    //   background-image: url("../images/icons/icon-menu-hover.svg");
-    // }
     @include on-desktop {
       display: none;
     }

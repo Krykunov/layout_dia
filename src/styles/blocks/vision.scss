@@ -1,6 +1,6 @@
 .vision {
-  padding-top: 72px;
-  padding-bottom: calc(72px + $border-radius-big);
+  padding-top: 4.5rem;
+  padding-bottom: calc(4.5rem + $border-radius-big);
   background-color: #fff;
 
   @include on-tablet {
@@ -33,7 +33,7 @@
     font-weight: 600;
 
     @include on-tablet {
-      margin-bottom: 64px;
+      margin-bottom: 4rem;
     }
   }
 }

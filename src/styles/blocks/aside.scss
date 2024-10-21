@@ -27,17 +27,15 @@
     top: 0;
     z-index: 1;
     background-color: $bg-dark;
-    margin-bottom: 32px;
-    padding: 48px 0;
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: flex-start;
-    gap: 32px;
+    gap: 2rem;
     align-items: center;
 
-    &__icons {
-      display: flex;
-      flex-direction: row;
-      gap: 24px;
+    @include on-tablet {
+      padding-block: 3rem;
     }
 
     &__logo {
@@ -46,28 +44,16 @@
   }
 
   &__nav {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 
   &__phone-number {
     display: block;
-    margin-bottom: 16px;
-    color: $text-light-color;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 27px;
-  }
 
-  &__book-a-test {
     color: $text-light-color;
     text-decoration: none;
-    display: block;
-    width: fit-content;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 2px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid $text-light-color;
+    font-size: 1rem;
+    line-height: 27px;
   }
 }
 
