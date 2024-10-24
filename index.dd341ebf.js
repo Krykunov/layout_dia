@@ -1,0 +1,2 @@
+let e=0;function t(t){let i=document.querySelector(".slide__forward"),d=document.querySelector(".slide__backward");i.addEventListener("click",c),d.addEventListener("click",l);let n=document.querySelectorAll(".slider__image"),r=n.length;e=t>=r?0:t<0?r-1:t,n.forEach(e=>e.classList.remove("active")),n[e].classList.add("active")}function c(){t(e+1)}function l(){t(e-1)}t(0);
+//# sourceMappingURL=index.dd341ebf.js.map
